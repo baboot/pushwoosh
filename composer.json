@@ -1,0 +1,44 @@
+{
+    "name": "hoy/pushwoosh",
+    "description": "A Pushwoosh bridge for Laravel",
+    "license": "MIT",
+    "keywords": ["pushwoosh", "push", "notification", "hoy", "laravel"],
+    "authors": [
+        {
+            "name": "Vincent Klaiber",
+            "email": "vincent@hoy.se"
+        }
+    ],
+    "require": {
+        "php": "^5.6.4 || ^7.0",
+        "illuminate/contracts": "5.1.* || 5.2.* || 5.3.* || 5.4.*",
+        "illuminate/support": "5.1.* || 5.2.* || 5.3.* || 5.4.*",
+        "graham-campbell/manager": "^2.4",
+        "gomoob/php-pushwoosh": "^1.1"
+    },
+    "require-dev": {
+        "graham-campbell/testbench": "^3.2",
+        "mockery/mockery": "^0.9.5",
+        "phpunit/phpunit": "^5.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Hoy\\Pushwoosh\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Hoy\\Tests\\Pushwoosh\\": "tests/"
+        }
+    },
+    "config": {
+        "preferred-install": "dist"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "2.2-dev"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
