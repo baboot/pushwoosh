@@ -35,13 +35,13 @@ composer require hoy/pushwoosh
 Add the service provider to `config/app.php` in the `providers` array.
 
 ```php
-Hoy\Pushwoosh\PushwooshServiceProvider::class
+Baboot\Pushwoosh\PushwooshServiceProvider::class
 ```
 
 If you want you can use the [facade](http://laravel.com/docs/facades). Add the reference in `config/app.php` to your aliases array.
 
 ```php
-'Pushwoosh' => Hoy\Pushwoosh\Facades\Pushwoosh::class
+'Pushwoosh' => Baboot\Pushwoosh\Facades\Pushwoosh::class
 ```
 
 ## Configuration
@@ -81,7 +81,7 @@ Here you can see an example of just how simple this package is to use. Out of th
 
 ```php
 // You can alias this in config/app.php.
-use Hoy\Pushwoosh\Facades\Pushwoosh;
+use Baboot\Pushwoosh\Facades\Pushwoosh;
 
 Pushwoosh::createMessage($request);
 // We're done here - how easy was that, it just works!
@@ -93,7 +93,7 @@ Pushwoosh::getApplication();
 The Pushwoosh manager will behave like it is a `Gomoob\Pushwoosh\Client\Pushwoosh`. If you want to call specific connections, you can do that with the connection method:
 
 ```php
-use Hoy\Pushwoosh\Facades\Pushwoosh;
+use Baboot\Pushwoosh\Facades\Pushwoosh;
 
 // Writing this…
 Pushwoosh::connection('main')->createMessage($request);
@@ -114,7 +114,7 @@ Pushwoosh::setDefaultConnection('alternative'); // The default is now alternativ
 If you prefer to use dependency injection over facades like me, then you can inject the manager:
 
 ```php
-use Hoy\Pushwoosh\PushwooshManager;
+use Baboot\Pushwoosh\PushwooshManager;
 
 class Foo
 {

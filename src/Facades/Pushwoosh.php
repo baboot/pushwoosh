@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Hoy\Pushwoosh\Facades;
+namespace Baboot\Pushwoosh\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

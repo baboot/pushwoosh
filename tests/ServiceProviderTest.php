@@ -9,12 +9,12 @@
  * file that was distributed with this source code.
  */
 
-namespace Hoy\Tests\Pushwoosh;
+namespace Baboot\Tests\Pushwoosh;
 
 use Gomoob\Pushwoosh\Client\Pushwoosh;
 use GrahamCampbell\TestBenchCore\ServiceProviderTrait;
-use Hoy\Pushwoosh\PushwooshFactory;
-use Hoy\Pushwoosh\PushwooshManager;
+use Baboot\Pushwoosh\PushwooshFactory;
+use Baboot\Pushwoosh\PushwooshManager;
 
 /**
  * This is the service provider test class.

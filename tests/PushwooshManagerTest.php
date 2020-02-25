@@ -9,12 +9,12 @@
  * file that was distributed with this source code.
  */
 
-namespace Hoy\Tests\Pushwoosh;
+namespace Baboot\Tests\Pushwoosh;
 
 use Gomoob\Pushwoosh\Client\Pushwoosh;
 use GrahamCampbell\TestBench\AbstractTestCase as AbstractTestBenchTestCase;
-use Hoy\Pushwoosh\PushwooshFactory;
-use Hoy\Pushwoosh\PushwooshManager;
+use Baboot\Pushwoosh\PushwooshFactory;
+use Baboot\Pushwoosh\PushwooshManager;
 use Illuminate\Contracts\Config\Repository;
 use Mockery;
 

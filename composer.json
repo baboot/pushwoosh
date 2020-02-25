@@ -23,12 +23,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Hoy\\Pushwoosh\\": "src/"
+            "Baboot\\Pushwoosh\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Hoy\\Tests\\Pushwoosh\\": "tests/"
+            "Baboot\\Tests\\Pushwoosh\\": "tests/"
         }
     },
     "config": {

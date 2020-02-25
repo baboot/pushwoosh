@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Hoy\Pushwoosh;
+namespace Baboot\Pushwoosh;
 
 use Gomoob\Pushwoosh\Client\Pushwoosh;
 use Illuminate\Contracts\Container\Container;

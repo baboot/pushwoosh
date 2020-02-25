@@ -9,10 +9,10 @@
  * file that was distributed with this source code.
  */
 
-namespace Hoy\Tests\Pushwoosh;
+namespace Baboot\Tests\Pushwoosh;
 
 use Gomoob\Pushwoosh\Client\Pushwoosh;
-use Hoy\Pushwoosh\PushwooshFactory;
+use Baboot\Pushwoosh\PushwooshFactory;
 
 /**
  * This is the Pushwoosh factory test class.

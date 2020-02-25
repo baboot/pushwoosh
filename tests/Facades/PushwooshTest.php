@@ -9,12 +9,12 @@
  * file that was distributed with this source code.
  */
 
-namespace Hoy\Tests\Pushwoosh\Facades;
+namespace Baboot\Tests\Pushwoosh\Facades;
 
 use GrahamCampbell\TestBenchCore\FacadeTrait;
-use Hoy\Pushwoosh\Facades\Pushwoosh;
-use Hoy\Pushwoosh\PushwooshManager;
-use Hoy\Tests\Pushwoosh\AbstractTestCase;
+use Baboot\Pushwoosh\Facades\Pushwoosh;
+use Baboot\Pushwoosh\PushwooshManager;
+use Baboot\Tests\Pushwoosh\AbstractTestCase;
 
 /**
  * This is the Pushwoosh facade test class.

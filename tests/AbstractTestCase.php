@@ -9,10 +9,10 @@
  * file that was distributed with this source code.
  */
 
-namespace Hoy\Tests\Pushwoosh;
+namespace Baboot\Tests\Pushwoosh;
 
 use GrahamCampbell\TestBench\AbstractPackageTestCase;
-use Hoy\Pushwoosh\PushwooshServiceProvider;
+use Baboot\Pushwoosh\PushwooshServiceProvider;
 
 /**
  * This is the abstract test class.

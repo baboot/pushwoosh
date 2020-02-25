@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Hoy\Pushwoosh;
+namespace Baboot\Pushwoosh;
 
 use GrahamCampbell\Manager\AbstractManager;
 use Illuminate\Contracts\Config\Repository;
@@ -24,7 +24,7 @@ class PushwooshManager extends AbstractManager
     /**
      * The factory instance.
      *
-     * @var \Hoy\Pushwoosh\PushwooshFactory
+     * @var \Baboot\Pushwoosh\PushwooshFactory
      */
     private $factory;
 
@@ -32,7 +32,7 @@ class PushwooshManager extends AbstractManager
      * Create a new Pushwoosh manager instance.
      *
      * @param \Illuminate\Contracts\Config\Repository $config
-     * @param \Hoy\Pushwoosh\PushwooshFactory         $factory
+     * @param \Baboot\Pushwoosh\PushwooshFactory         $factory
      *
      * @return void
      */
@@ -68,7 +68,7 @@ class PushwooshManager extends AbstractManager
     /**
      * Get the factory instance.
      *
-     * @return \Hoy\Pushwoosh\PushwooshFactory
+     * @return \Baboot\Pushwoosh\PushwooshFactory
      */
     public function getFactory()
     {
